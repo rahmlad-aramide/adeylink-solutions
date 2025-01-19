@@ -7,7 +7,7 @@ export function Header() {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="max-w-7xl mx-auto px-5 sm:px-8 md:px-10">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <a href="/" className="text-2xl font-bold text-blue-600">

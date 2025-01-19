@@ -46,11 +46,11 @@ export function NetworkPricingTable({ network, plans }: NetworkPricingTableProps
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
-      <div className={`${getNetworkColor(network)} px-6 py-4 flex items-center gap-4`}>
+      <div className={`${getNetworkColor(network)} px-6 py-2 flex items-center gap-4`}>
         <img 
           src={getNetworkLogo(network)} 
           alt={`${network} logo`} 
-          className="h-8 w-auto object-contain bg-white rounded p-1"
+          className="h-12 w-auto object-contain bg-white rounded p-1"
         />
         <h3 className="text-xl font-bold text-white">{network} Data Plans</h3>
       </div>
@@ -72,9 +72,9 @@ export function NetworkPricingTable({ network, plans }: NetworkPricingTableProps
           </tbody>
         </table>
         <div className="mt-6">
-          <button className="w-full bg-blue-600 text-white py-2 rounded-md text-sm hover:bg-blue-700">
+          <a href='https://adeylinksolutions.com.ng/portal' className="flex text-center justify-center w-full bg-blue-600 text-white py-2 rounded-md text-sm hover:bg-blue-700">
             Buy {network} Data
-          </button>
+          </a>
         </div>
       </div>
     </div>

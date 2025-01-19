@@ -3,7 +3,7 @@ import { Mail, MapPin, PhoneCall } from "lucide-react";
 export function Footer() {
     return (
         <footer className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 md:px-10">
           <div className="grid md:grid-cols-12 gap-8">
             <div className="col-span-3">
               <h3 className="text-xl font-bold mb-4">Adeylink Solutions</h3>

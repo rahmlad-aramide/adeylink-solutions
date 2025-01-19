@@ -77,7 +77,7 @@ export function Testimonials() {
             {testimonials.map((testimonial, index) => (
               <SwiperSlide key={index}>
                 <div className="bg-white p-6 rounded-lg shadow-md h-full">
-                  <div className="flex items-center mb-4">
+                  <div className="flex items-center px-5 sm:px-8 md:px-10">
                     <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4">
                       <User className="w-6 h-6 text-blue-600" />
                     </div>

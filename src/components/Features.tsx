@@ -30,7 +30,7 @@ export function Features() {
 
   return (
     <section className="py-16 bg-white" id="features">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8 md:px-10">
         <h2 className="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (

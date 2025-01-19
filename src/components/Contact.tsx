@@ -3,7 +3,7 @@ import { Mail, MapPin, PhoneCall } from "lucide-react";
 export function Contact() {
   return (
     <section className="py-16 bg-white" id="contact">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8 md:px-10">
         <h2 className="text-3xl font-bold text-center mb-4">Contact Us</h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
           Have questions? We're here to help. Contact us through any of these
@@ -66,7 +66,7 @@ export function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="text-blue-600" />
-                  <span>support@adeylinksolutions.com.ng</span>
+                  <a href="mailto:support@adeylinksolutions.com.ng">support@adeylinksolutions.com.ng</a>
                 </div>
                 <div className="flex items-center gap-3">
                   <PhoneCall className="text-blue-600" />
@@ -82,7 +82,7 @@ export function Contact() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
               <p className="text-gray-600">
-                Our customer support team is available 24/7 to assist you with
+                Our customer support team is always available to assist you with
                 any queries or concerns.
               </p>
             </div>
