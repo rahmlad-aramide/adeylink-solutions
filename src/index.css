@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --swiper-navigation-size: 20px !important;
+}
+html, body {
+  scroll-behavior: smooth;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  width: 28px !important;
+  height: 28px !important;
+  
+}
